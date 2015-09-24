@@ -55,7 +55,6 @@ EXTENDED_FONT_FOOTPRINT := true
 # Graphics
 USE_OPENGL_RENDERER := true
 TARGET_USES_ION := true
-TARGET_USES_C2D_COMPOSITION := true
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
@@ -76,9 +75,6 @@ BOARD_CUSTOM_BOOTIMG_MK := device/sony/msm8974-common/boot/custombootimg.mk
 
 # Lights HAL
 TARGET_PROVIDES_LIBLIGHT := true
-
-# Logd
-TARGET_USES_LOGD := false
 
 # Power HAL
 TARGET_POWERHAL_VARIANT := qcom
